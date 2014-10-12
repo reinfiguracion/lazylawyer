@@ -1,0 +1,41 @@
+header
+  .container
+    .row
+      .col-lg-4.col-md-3.hidden-sm.hidden-xs
+        a(href="index.html")
+          img(src="assets/images/Lazy-Lawyer-Logo.jpg", alt="")
+      .col-lg-5.col-md-5.col-sm-7.col-xs-12
+        form(action="#")
+          .input-group
+            input.form-control.input-search(type="text", placeholder="Enter something to search")
+            span.input-group-btn
+              button.btn.btn-default.no-border-left(type="submit")
+                i.fa.fa-search
+      .col-lg-3.col-md-4.col-sm-5
+        .btn-group.btn-group-cart
+          button.btn.btn-default.dropdown-toggle(type="button", data-toggle="dropdown")
+            span.pull-left
+              i.fa.fa-shopping-cart.icon-cart
+            span.pull-left Shopping Cart: 2 item(s)
+            span.pull-right
+              i.fa.fa-caret-down
+          ul.dropdown-menu.cart-content.pull-right(role="menu")
+            li
+              a(href="detail.html")
+                b Template 1
+                span x1 $49.96
+            li
+              a(href="detail.html")
+                b Tempalte 2
+                span x1 $428.96
+            li.divider
+            li
+              a(href="cart.html") Total: $957.92
+
+
+
+
+
+
+
+
