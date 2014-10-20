@@ -62,6 +62,11 @@ h6,.h6 {@include font-size(12px); }
 		background   : url("/assets/images/category-banner.jpg") center center no-repeat;
 		background-size: cover;
 	}
+	&.lawyers{
+		padding: 50px 0;
+		background   : url("/assets/images/lawyer-banner.jpg") center center no-repeat;
+		background-size: cover;
+	}
 }
 a {
 	color: #02baf2;
