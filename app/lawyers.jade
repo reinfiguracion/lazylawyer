@@ -3,30 +3,32 @@ block content
   .jumbotron.lawyers
     .container-fluid
       .row
-        .col-md-12
-          ol.breadcrumb
-            +item-linked('#','Home')
-            +item-linked('#','Professional Service Agreements')
-            li.active Employment Contract Template
         .col-md-12.text-center
-          h1 Employment Contract Template Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          a.btn.btn-primary.btn-lg(href="/") Learn More
+          h1 Legal Document Starter Kit designed for lawyers who need a diverse range of comprehensive legal documents
+          +link('/','Learn More')(class="btn btn-primary btn-lg")
 
-  section.content
+  section.content.alt
     .container
+      .row: .col-md-12
+        h2 The Kit includes:
       .row
-        .col-md-8
-         h2 The Lazy Lawyer: changing the way people solve their legal problems
-         p The Lazy Lawyer is the brainchild of someone who is passionate about providing open access to justice for all Australians. Our goal is to make legal documents as affordable and accessible as possible.
-         p Legal documents can be confusing for even the most experienced lawyers.
-         p
-           strong Each template purchased from The Lazy Lawyer comes with 1 hour of post sales assistance guiding you through the simple customisation process.
-           | We believe that no question is too stupid so don't hesitate to &nbsp;
-           +link('/','contact us').
         .col-md-4
-          img(src="assets/images/legal-document-template.png", alt="")
+          +img('lawyer-bundle.png')(class="img-responsive")
+        .col-md-5
+          ul.kit-list
+            li Employment Contract
+            li Non Disclosure Agreement
+            li Confidentiality Agreement
+            li Partnership Agreement
+            li Shareholders Agreement
+            li Residential Lease Agreement
+            li Commercial Lease Agreement
+            li Property Co-Ownership Agreement
+            li Business to Business Loan Agreement
+          br
       .row
-        h3 Benefits of using The Lazy Lawyer:
+        .col-md-12
+          h3 Benefits of using The Lazy Lawyer:
         .col-md-3
           +img-caption('save-money.png','Inexpensive & convenient')
         .col-md-3
@@ -45,41 +47,47 @@ block content
         .col-md-3
           +img-caption('australian-flag.png','Australian made')
       .row
-        .col-md-12
-          h2 Why spend time writing complicated legal documents when you can simply use the templates the Lawyers use themselves?
-          p The Lazy Lawyer gives you access to the core documents and templates Lawyers use on a daily basis without having to fork out the exorbitant legal fees. In just one click the legal document of choice is at your fingertips.
-          p.takeaway The Secret? "Productive Laziness"
+        p This Legal Document Kit is ideal for small firms and sole practitioners who don’t have the time to draft each of the precedents they require. This Starter Kit includes the most commonly used industry standard legal documents, which can be easily customised to meet your clients needs.
+        p We’ve taken the hard work out of establishing your legal precedents library.
+      .row
+        .col-md-12.text-center
+          a.btn.btn-success.btn-addcart.btn-lg.spacer(href="/", target="_blank")
+              span.glyphicon.glyphicon-download-alt
+              | &nbsp; Download this all inclusive Legal Document Starter Kit for Lawyers now. Only $350
+
   section.testimony
-    .container: .row
-      .head
-        h2 Why Australians love The Lazy Lawyer
-        p Here's what they have to say.
+    .container
+      .row
+        .head
+          h2 Why Australians love The Lazy Lawyer
+          p Here's what they have to say.
 
-      .col-md-6
-        +feedback(
-          'Absolutely impressed with both the legal document package I purchased today and the subsequent customer service I received from Legal123 when I had an issue with the order. Great customer service and thanks heaps. You definitely made my day today.',
-          'Emma Schmidt',
-          'Managing Director, ACME CO.',
-          'test-person.png')
+        .col-md-6
+          +feedback(
+            'Absolutely impressed with both the legal document package I purchased today and the subsequent customer service I received from Legal123 when I had an issue with the order. Great customer service and thanks heaps. You definitely made my day today.',
+            'Emma Schmidt',
+            'Managing Director, ACME CO.',
+            'test-person.png')
 
-        +feedback(
-          'Legal 123 were the only place I could find the paperwork for a holiday rental agreement that applied to us. Very clear and easy to understand.',
-          'Kenneth Rodriquez',
-          'theislandholidayrentals.com.au',
-          'test-person2.png')
+          +feedback(
+            'Legal 123 were the only place I could find the paperwork for a holiday rental agreement that applied to us. Very clear and easy to understand.',
+            'Kenneth Rodriquez',
+            'theislandholidayrentals.com.au',
+            'test-person2.png')
 
-      .col-md-6
-        +feedback(
-          'The letter was great. I actually retyped it onto my own letterhead for more impact. The client didnt pay all that he owed but he did pay some. So now I need the info to take him to court. And with Legal123 I have the confidence to do this.',
-          'Shawn Reed',
-          'Managing Director, ACME CO.',
-          'test-person3.png')
+        .col-md-6
+          +feedback(
+            'The letter was great. I actually retyped it onto my own letterhead for more impact. The client didnt pay all that he owed but he did pay some. So now I need the info to take him to court. And with Legal123 I have the confidence to do this.',
+            'Shawn Reed',
+            'Managing Director, ACME CO.',
+            'test-person3.png')
 
-        +feedback(
-          'I was impressed that the website package was so easy to use. I didnt want to find a lawyer and create a workload for my website so the templates were super handy. My legal requirements for my website were done in 5 minutes, giving me more time to get back to business. Thank you legal123.',
-          'Lauren George',
-          'Managing Director, ACME CO.',
-          'test-person4.png')
+          +feedback(
+            'I was impressed that the website package was so easy to use. I didnt want to find a lawyer and create a workload for my website so the templates were super handy. My legal requirements for my website were done in 5 minutes, giving me more time to get back to business. Thank you legal123.',
+            'Lauren George',
+            'Managing Director, ACME CO.',
+            'test-person4.png')
+
       .row: .col-md-12: .text-center
           +link('/','More Customer Testimonials')(class="btn btn-primary")
       .row: .col-md-12: .features
@@ -91,6 +99,26 @@ block content
           li: +img('anthill.png')
           li: +img('the-age.png')
           li: +img('smh.png')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

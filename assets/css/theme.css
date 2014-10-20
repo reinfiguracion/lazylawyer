@@ -104,7 +104,6 @@ h6, .h6 {
   background-size: cover;
 }
 .jumbotron.lawyers {
-  padding: 50px 0;
   background: url("/assets/images/lawyer-banner.jpg") center center no-repeat;
   background-size: cover;
 }
@@ -196,34 +195,34 @@ fieldset[disabled] .form-control {
 }
 
 .btn-primary {
-  color: white;
+  color: #fff;
   background-color: #0288d1;
   border-color: #0278b8;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  color: white;
+  color: #fff;
   background-color: #02679e;
   border-color: #02679e;
 }
 
 .btn-cart {
-  color: white;
+  color: #fff;
   background-color: #93a4aa;
   border-color: #85989f;
 }
 .btn-cart:hover, .btn-cart:focus, .btn-cart:active, .btn-cart.active {
-  color: white;
+  color: #fff;
   background-color: #768c94;
   border-color: #768c94;
 }
 
 .btn-success {
-  color: white;
+  color: #fff;
   background-color: #11b300;
   border-color: #0f9a00;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
-  color: white;
+  color: #fff;
   background-color: #0c8000;
   border-color: #0c8000;
 }

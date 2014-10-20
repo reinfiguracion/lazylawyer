@@ -23,6 +23,7 @@ section{
 	margin-right: 5px;
 }
 .thumbnail.img-caption{
+	background   : transparent;
 	margin       : 20px 0;
 	border       : none;
 	padding      : 0;
@@ -160,6 +161,9 @@ footer{
 
 .product-info{
 	h2{
-		@include SourceSans-BIt
+		@include SourceSans-BIt;
 	}
+}
+.kit-list{
+	margin-top: 30px;
 }
