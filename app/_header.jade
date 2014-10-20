@@ -34,8 +34,8 @@ header
     #navbar-collapse-1.navbar-collapse.collapse
       ul.nav.navbar-nav
         +item-linked('/','Home')
-        +item-linked('category.html','Category')
-        +item-linked('product.html','Product')
+        +item-linked('category.html','*Category')
+        +item-linked('product.html','*Product')
         li.dropdown
           a.dropdown-toggle(href="", data-toggle="dropdown")
             | Personal &nbsp;
@@ -68,5 +68,5 @@ header
             +item-linked('/','Lease Agreements')
         +item-linked('lawyers.html','For Lawyers')
         +item-linked('/','Business Starter Kit')
-        +item-linked('/','Legal FAQs')
-        +item-linked('/','About')
+        +item-linked('faq.html','Legal FAQs')
+        +item-linked('about.html','About')
